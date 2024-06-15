@@ -1,0 +1,110 @@
+.app {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #e0eafc; /* New background color */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(135deg, #ff0505 0%, #204dae 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    height: 50px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    color: #2c3e50;
+    background: #ffffff;
+    font-size: 18px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar input:focus {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-bar img {
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .search-bar img:hover {
+    background: #f0f0f0;
+  }
+  
+  .weather-icon {
+    width: 120px;
+    margin: 20px 0;
+  }
+  
+  .temperature {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 600;
+  }
+  
+  .location {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-data {
+    width: 100%;
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+  }
+  
+  .weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+  }
+  
+  .weather-data .col span {
+    display: block;
+    font-size: 16px;
+  }
+  
+  .weather-data .col img {
+    width: 26px;
+    margin-top: 5px;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
